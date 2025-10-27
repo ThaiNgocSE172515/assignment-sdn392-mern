@@ -1,5 +1,5 @@
 const app = require("express");
-const { getBrand, getBrandById, createBrand, updateBrand, deleteBrand } = require("../../sdn/controller/brand_controller");
+const { getBrand, getBrandById, createBrand, updateBrand, deleteBrand } = require("../controller/brand_controller");
 
 const router = app.Router();
 
